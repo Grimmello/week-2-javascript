@@ -1,7 +1,6 @@
-# week-2-javascript
+# Week 2 Javascript Project
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project is a Stackoverflow / Reddit clone and seeks to have the functionality listed in the specifications below. Users should be able to post and answer posts by other users, as well as rate other users posts.
 
 ## Prerequisites
 
@@ -13,35 +12,27 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
+## Specifications
+
+![Specs](/public/assets/specs.png)
+
+_A specification not listed would be to update and delete posts created by user, which should be listed after the ability to create posts_
+
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd week-2-javascript`
-* `npm install`
-* `bower install`
+* Clone the repository https://github.com/grimmello/week-2-javascript
+* Change to the directory you just cloned and type `./config.sh`
+* This should automatically set up everything and open the web page in your browser
 
 ## Running / Development
 
-* `ember serve`
+* Should you accidentally shut down the ember server, simply enter `ember s`  into your terminal
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
 * `ember test`
 * `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
@@ -50,3 +41,9 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+  ### License
+
+  *This software is licensed under the MIT license.*
+
+  Copyright (c) 2017 by Clifford Grimmell
