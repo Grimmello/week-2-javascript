@@ -22,8 +22,6 @@ export default Ember.Route.extend({
       });
     },
     updateReply(Reply, params){
-      console.log(Reply);
-      console.log(params);
       Object.keys(params).forEach(key=>{
         if(params[key] !== undefined){
           Reply.set(key,params[key]);
@@ -33,7 +31,8 @@ export default Ember.Route.extend({
       location.reload(true);
     },
     handleError(){
-      $("#question-detailed-section").hide();
-      $("#main-error").show();
+      Document.getElementById("#question-detailed-section").hide();
+      Document.getElementById("#main-error").show();
     }
+  }
 });

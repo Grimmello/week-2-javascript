@@ -13,9 +13,8 @@ export default Ember.Component.extend({
         details: this.get('details'),
         category: this.get('category')
       };
-      console.log(params);
       this.set('updatePostForm', false);
-      this.sendAction('updatePost', question, params);
+      this.sendAction('updatePost', post, params);
     }
   }
 })

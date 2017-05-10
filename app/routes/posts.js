@@ -18,8 +18,8 @@ export default Ember.Route.extend({
       this.transitionTo('posts');
     },
     handleError(){
-      $("#post-display-secion").hide();
-      $("#main-error").show();
+      Document.getElementById("#post-display-secion").hide();
+      Document.getElementById("#main-error").show();
     }
   }
 });

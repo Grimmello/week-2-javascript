@@ -7,8 +7,8 @@ export default Ember.Route.extend({
       newPost.savePost();
     },
     handleError(){
-      $("#form-section").hide();
-      $("#main-error").show();
+      Document.getElementById("#form-section").hide();
+      Document.getElementById("#main-error").show();
     }
   }
 });
