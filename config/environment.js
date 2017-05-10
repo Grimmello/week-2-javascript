@@ -17,6 +17,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+       apiKey: 'AIzaSyCHPGJJngKgX_ZSgNAlkoMkvJiLKiJVpoc',
+       authDomain: 'javascript-week-2.firebaseapp.com',
+       databaseURL: 'https://javascript-week-2.firebaseio.com',
+       storageBucket: 'javascript-week-2.appspot.com'
+     },
+
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
@@ -45,6 +53,8 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   }
+
+
 
   return ENV;
 };
