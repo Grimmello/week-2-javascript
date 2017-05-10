@@ -1,0 +1,11 @@
+{{#if displayReplyForm}}
+  <form id="reply-form">
+    <label for="author">Author:</label><br>
+    {{input value=author id="author"}}<br>
+    <label for="details">Your Reply: </label><br>
+    {{textarea value=details}}<br>
+    <button {{action 'saveReply'}} class="btn btn-success">Reply</button>
+  </form>
+{{else}}
+  <button {{action 'displayReplyForm'}} class="btn btn-info">Add reply</button>
+{{/if}}

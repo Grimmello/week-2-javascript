@@ -1,0 +1,6 @@
+
+{{#each model as |post|}}
+  {{#each post.replies as |reply|}}
+    {{reply-display reply=reply handleError="handleError"}}
+  {{/each}}
+{{/each}}

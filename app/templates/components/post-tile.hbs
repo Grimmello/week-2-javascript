@@ -1,0 +1,12 @@
+<div class="panel panel-info">
+  <div class="panel-info panel-heading">
+    {{#link-to 'post' post.id}}
+    <h3>{{post.title}}</h3>
+    {{/link-to}}
+    <h5>{{post.author}}</h5>
+  </div>
+  <h5>Category: {{post.category}}</h5>
+  <div class="panel-footer">
+    {{add-reply saveReply="saveReply" post=post handleError="handleError"}}
+  </div>
+</div>

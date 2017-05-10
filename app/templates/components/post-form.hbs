@@ -1,0 +1,14 @@
+<div id="form-section">
+  <h2>Ask a New Question</h2>
+  <form>
+    <label for="question">Post Title:</label><br>
+    {{input value=title id="title" required=true class="form-control"}}<br>
+    <label for="author">Author:</label><br>
+    {{input value=author id="author" required=true}}<br>
+    <label for="details">Explain your question in more detail: </label><br>
+    {{textarea value=details}}<br>
+    <label for="tags">Add category:</label><br>
+    {{input value=category id="category"}}<br><br>
+    <button {{action 'save'}} class="btn btn-success">Post</button>
+  </form>
+</div>

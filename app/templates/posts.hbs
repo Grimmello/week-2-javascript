@@ -1,0 +1,5 @@
+<div class="post-display-secion">
+  {{#each model.entries as |post|}}
+    {{post-display post=post saveReply='saveReply' handleError='handleError'}}
+  {{/each}}
+</div>

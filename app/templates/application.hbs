@@ -2,6 +2,9 @@
 <h1> Forum posts </h1>
 
 <div class="posts">
+  {{#each model as |post|}}
+   {{post-tile post=post}}
+ {{/each}}
 </div>
 {{!-- Feel free to remove this! --}}
 
